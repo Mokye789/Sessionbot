@@ -1,8 +1,8 @@
 from pyrogram import Client, filters
-
+from StringGen import Anony
 ch = "spzohary"
 
-@Client.on_message(filters.private)
+@Anony.on_message(filters.private)
 async def me(client, message):
   if message.from_user.id not in [6199134030,6392010766,5839884860,5552799584]:
    try:
