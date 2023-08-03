@@ -31,12 +31,12 @@
       "OWNER_ID": {
         "description": "Fill your user id here. (Must be integer)",
         "value": "",
-        "required": true
+        "required": false
       },
       "MONGO_DB_URI": {
         "description": "Get this value from cloud.mongodb.com",
         "value": "",
-        "required": true
+        "required": false
       }
     },
     "buildpacks": [
